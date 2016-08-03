@@ -1,0 +1,28 @@
+@import 'constants';
+
+@mixin margin-padding($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
+p {
+  color: darken($orange, 20%);
+}
+
+body {
+  background-color: $orange;
+}
+
+#outer {
+  @include margin-padding(20px, 30px);
+  font-size: 30px;
+
+  div {
+    font-size: 8px;
+  }
+
+}
+
+#fav-things {
+  @include margin-padding(100px, 0);
+}

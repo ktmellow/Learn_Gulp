@@ -1,0 +1,16 @@
+p {
+  color: #001a00; }
+
+body {
+  background-color: green; }
+
+#outer {
+  margin: 20px;
+  padding: 30px;
+  font-size: 30px; }
+  #outer div {
+    font-size: 8px; }
+
+#fav-things {
+  margin: 100px;
+  padding: 0; }
